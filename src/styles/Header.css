@@ -1,0 +1,43 @@
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 182px;
+    height: 185px;
+    border-radius: 11%;
+    border: solid 2px #000;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 180px;
+    gap: 28px;
+}
+
+.paragraph {
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    font-size: 19px;
+}
+
+.ubicacion {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    color: #575757;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
