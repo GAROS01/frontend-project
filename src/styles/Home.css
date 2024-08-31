@@ -1,0 +1,82 @@
+.cita {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 180px;
+    gap: 16px;
+    text-decoration: none;
+}
+
+.agenda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.cita h2 {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #c0c0c0;
+}
+
+.titulo-diseños {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenes-diseños {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 180px;
+}
+
+.uñas {
+    display: flex;
+    justify-content: space-around;
+    width: 15vw;
+    height: 16vw;
+    border-radius: 2%;
+    border: solid 9px #ffffff;
+    box-shadow: rgb(0, 0, 0), 0px 0px 10px 0px;
+}
+
+
+
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 724px) {
+    header {
+        flex-direction: column;
+        padding: 40px 20px;
+        align-items: center;
+    }
+
+    .paragraph {
+        font-size: 16px;
+    }
+
+    .cita {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .imagenes-diseños {
+        flex-direction: column;
+        padding: 40px 20px;
+        align-items: center;
+    }
+
+    .uñas {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        padding: 40px 20px;
+    }
+}
