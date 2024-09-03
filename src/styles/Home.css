@@ -48,7 +48,7 @@
 
 
 /* Estilos para dispositivos móviles */
-@media only screen and (max-width: 724px) {
+@media only screen and (max-width: 768px) {
     header {
         flex-direction: column;
         padding: 40px 20px;
