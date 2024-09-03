@@ -34,6 +34,11 @@
 }
 
 @media (max-width: 835px) {
+
+    .nav-container {
+        padding: 15px 50px;
+    }
+
     .menu-icon {
         display: block;
     }
