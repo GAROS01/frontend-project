@@ -3,13 +3,6 @@
     color: black;
 }
 
-.logo {
-    width: 182px;
-    height: 185px;
-    border-radius: 11%;
-    border: solid 2px #000;
-}
-
 header {
     display: flex;
     flex-direction: row;
@@ -19,12 +12,20 @@ header {
     gap: 28px;
 }
 
+.logo {
+    width: 182px;
+    height: 185px;
+    border-radius: 11%;
+    border: solid 2px #000;
+}
+
 .paragraph {
     flex: none;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
     font-size: 19px;
+    text-align: start;
 }
 
 .ubicacion {
