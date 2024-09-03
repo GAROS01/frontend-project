@@ -1,0 +1,39 @@
+.titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.design {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 40px 180px;
+}
+
+.design img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+}
+
+@media screen and (max-width: 865px) {
+    .design {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px 20px;
+    }
+
+}
