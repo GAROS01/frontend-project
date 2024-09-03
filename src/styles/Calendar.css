@@ -42,3 +42,14 @@
     text-align: center;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .calendar {
+        width: 80%;
+    }
+
+    .div-boton {
+        padding: 60px 100px;
+    }
+
+}
