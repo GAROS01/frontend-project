@@ -1,0 +1,79 @@
+{
+  "productos": [
+    {
+      "categoria": "Uñas",
+      "nombre": "Esmalte de Uñas Gel Couture de Essie",
+      "descripcion": "Esmalte en gel de larga duración que no requiere lámpara UV para secar. Ofrece un acabado brillante y duradero, disponible en una amplia gama de colores modernos."
+    },
+    {
+      "categoria": "Uñas",
+      "nombre": "Fortalecedor de Uñas OPI Nail Envy",
+      "descripcion": "Tratamiento endurecedor con proteínas que fortalece las uñas débiles y quebradizas, ayudando a prevenir roturas y deshojamiento."
+    },
+    {
+      "categoria": "Uñas",
+      "nombre": "Removedor de Esmalte Sin Acetona Sally Hansen",
+      "descripcion": "Removedor de esmalte suave y sin acetona que elimina eficazmente el esmalte sin resecar las uñas ni las cutículas."
+    },
+    {
+      "categoria": "Uñas",
+      "nombre": "Aceite para Cutículas CND SolarOil",
+      "descripcion": "Aceite nutritivo con mezcla de aceite de jojoba y vitamina E, diseñado para hidratar y fortalecer las cutículas y las uñas."
+    },
+    {
+      "categoria": "Uñas",
+      "nombre": "Crema Hidratante para Manos y Pies Neutrogena Norwegian Formula",
+      "descripcion": "Crema ultra-hidratante ideal para manos y pies secos. Su fórmula rica en glicerina alivia la sequedad, dejando la piel suave y flexible."
+    },
+    {
+      "categoria": "Cabello",
+      "nombre": "Tintura Capilar Revlon Colorsilk",
+      "descripcion": "Tintura capilar permanente libre de amoníaco con tecnología 3D Color Gel, que proporciona un color natural y un brillo sedoso."
+    },
+    {
+      "categoria": "Cabello",
+      "nombre": "Champú y Acondicionador Moroccanoil Color Complete",
+      "descripcion": "Duo de champú y acondicionador especialmente formulado para cabello teñido. Ayuda a prolongar la duración del color mientras repara y protege la fibra capilar."
+    },
+    {
+      "categoria": "Cabello",
+      "nombre": "Mascarilla Capilar Hidratante Intensiva Kérastase Nutritive Masquintense",
+      "descripcion": "Mascarilla nutritiva de alta concentración para cabello seco, proporcionando hidratación profunda y suavidad duradera."
+    },
+    {
+      "categoria": "Cabello",
+      "nombre": "Aceite de Argan Moroccanoil Treatment",
+      "descripcion": "Tratamiento de aceite ligero para todo tipo de cabello, que mejora la manejabilidad, el brillo y la salud del cabello al tiempo que reduce el frizz."
+    },
+    {
+      "categoria": "Cabello",
+      "nombre": "Protector de Calor y Brillo TRESemmé Thermal Creations",
+      "descripcion": "Spray protector contra el calor que ayuda a prevenir el daño de las herramientas de calor mientras aporta un brillo natural al cabello."
+    },
+    {
+      "categoria": "Cuidado de la Piel",
+      "nombre": "Gel Limpiador Facial La Roche-Posay Effaclar",
+      "descripcion": "Gel limpiador purificante para piel grasa y sensible, elimina el exceso de sebo y las impurezas sin resecar la piel."
+    },
+    {
+      "categoria": "Cuidado de la Piel",
+      "nombre": "Mascarilla Facial de Arcilla L'Oréal Paris Pure-Clay",
+      "descripcion": "Mascarilla detoxificante que combina arcillas puras con carbón para purificar y limpiar profundamente los poros."
+    },
+    {
+      "categoria": "Cuidado de la Piel",
+      "nombre": "Serum Antioxidante con Vitamina C SkinCeuticals C E Ferulic",
+      "descripcion": "Serum antioxidante de alta potencia que protege la piel contra los radicales libres, mejora la apariencia de líneas finas y refuerza la firmeza."
+    },
+    {
+      "categoria": "Cuidado de la Piel",
+      "nombre": "Crema Hidratante Avène Hydrance Aqua-Gel",
+      "descripcion": "Crema hidratante ligera y multifuncional que hidrata intensamente la piel, calma la irritación y protege contra los agresores ambientales."
+    },
+    {
+      "categoria": "Cuidado de la Piel",
+      "nombre": "Protector Solar Facial ISDIN Fotoprotector Fusion Water SPF 50+",
+      "descripcion": "Protector solar facial con textura ultraligera y base acuosa, que ofrece alta protección contra los rayos UVA y UVB sin dejar residuos grasos."
+    }
+  ]
+}

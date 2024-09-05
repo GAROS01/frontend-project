@@ -1,0 +1,23 @@
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas */
+    gap: 1rem;
+    /* Espacio entre las tarjetas */
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .products-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
