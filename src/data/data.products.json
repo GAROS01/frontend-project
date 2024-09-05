@@ -3,76 +3,91 @@
     {
       "categoria": "Uñas",
       "nombre": "Esmalte de Uñas Gel Couture de Essie",
+      "imagen": "https://static.beautytocare.com/cdn-cgi/image/width=1600,height=1600,f=auto/media/catalog/product//e/s/essie-gel-couture-long-wear-nail-polish-345-bubbles-only-13-5ml_3.jpg",
       "descripcion": "Esmalte en gel de larga duración que no requiere lámpara UV para secar. Ofrece un acabado brillante y duradero, disponible en una amplia gama de colores modernos."
     },
     {
       "categoria": "Uñas",
       "nombre": "Fortalecedor de Uñas OPI Nail Envy",
+      "imagen": "https://ontopstore.pe/cdn/shop/files/esm3.png?v=1723171047",
       "descripcion": "Tratamiento endurecedor con proteínas que fortalece las uñas débiles y quebradizas, ayudando a prevenir roturas y deshojamiento."
     },
     {
       "categoria": "Uñas",
       "nombre": "Removedor de Esmalte Sin Acetona Sally Hansen",
+      "imagen": "https://images.contentstack.io/v3/assets/blt68535c7ccb9ffe9b/blt04682a5f7a967fbe/5dd29ad7a6efc170790d2f55/xs_nail-polish-remover_salon-nail-polish-re_1.jpg?auto=webp",
       "descripcion": "Removedor de esmalte suave y sin acetona que elimina eficazmente el esmalte sin resecar las uñas ni las cutículas."
     },
     {
       "categoria": "Uñas",
       "nombre": "Aceite para Cutículas CND SolarOil",
+      "imagen": "https://www.cbeauty.es/cdnassets/solar-oil-aceite-para-unas-y-cuticulas-15-mladl.jpg",
       "descripcion": "Aceite nutritivo con mezcla de aceite de jojoba y vitamina E, diseñado para hidratar y fortalecer las cutículas y las uñas."
     },
     {
       "categoria": "Uñas",
       "nombre": "Crema Hidratante para Manos y Pies Neutrogena Norwegian Formula",
+      "imagen": "https://www.neutrogena.es/sites/neutrogena_es/files/styles/product_image/public/product-images/ntg_4012273123009_emea_neutrogena_norwegian_formula_hand_cream_scented_50ml_mobile.jpg",
       "descripcion": "Crema ultra-hidratante ideal para manos y pies secos. Su fórmula rica en glicerina alivia la sequedad, dejando la piel suave y flexible."
     },
     {
       "categoria": "Cabello",
       "nombre": "Tintura Capilar Revlon Colorsilk",
+      "imagen": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00030997021824L.jpg",
       "descripcion": "Tintura capilar permanente libre de amoníaco con tecnología 3D Color Gel, que proporciona un color natural y un brillo sedoso."
     },
     {
       "categoria": "Cabello",
       "nombre": "Champú y Acondicionador Moroccanoil Color Complete",
+      "imagen": "https://johnnavasstudio.com/wp-content/uploads/2021/05/volume-Shampoo-Extra-Volumen-250ml-moroccanoil.jpg",
       "descripcion": "Duo de champú y acondicionador especialmente formulado para cabello teñido. Ayuda a prolongar la duración del color mientras repara y protege la fibra capilar."
     },
     {
       "categoria": "Cabello",
       "nombre": "Mascarilla Capilar Hidratante Intensiva Kérastase Nutritive Masquintense",
+      "imagen": "https://blind.vteximg.com.br/arquivos/ids/187999-1000-1000/3474637154967_1.png?v=638484527525430000",
       "descripcion": "Mascarilla nutritiva de alta concentración para cabello seco, proporcionando hidratación profunda y suavidad duradera."
     },
     {
       "categoria": "Cabello",
       "nombre": "Aceite de Argan Moroccanoil Treatment",
+      "imagen": "https://johnnavasstudio.com/wp-content/uploads/2024/02/Tratamiento-Moroccanoil-200-ml-.png",
       "descripcion": "Tratamiento de aceite ligero para todo tipo de cabello, que mejora la manejabilidad, el brillo y la salud del cabello al tiempo que reduce el frizz."
     },
     {
       "categoria": "Cabello",
       "nombre": "Protector de Calor y Brillo TRESemmé Thermal Creations",
+      "imagen": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/tse/tse62392/l/14.jpg",
       "descripcion": "Spray protector contra el calor que ayuda a prevenir el daño de las herramientas de calor mientras aporta un brillo natural al cabello."
     },
     {
       "categoria": "Cuidado de la Piel",
       "nombre": "Gel Limpiador Facial La Roche-Posay Effaclar",
+      "imagen": "https://pielybelleza.com.co/1382-large_default/effaclar-gel-limpiador-purificante-x-400-ml.jpg",
       "descripcion": "Gel limpiador purificante para piel grasa y sensible, elimina el exceso de sebo y las impurezas sin resecar la piel."
     },
     {
       "categoria": "Cuidado de la Piel",
       "nombre": "Mascarilla Facial de Arcilla L'Oréal Paris Pure-Clay",
+      "imagen": "https://m.media-amazon.com/images/I/61+2qJFdMIL.jpg",
       "descripcion": "Mascarilla detoxificante que combina arcillas puras con carbón para purificar y limpiar profundamente los poros."
     },
     {
       "categoria": "Cuidado de la Piel",
       "nombre": "Serum Antioxidante con Vitamina C SkinCeuticals C E Ferulic",
+      "imagen": "https://pielviva.com.co/wp-content/uploads/2023/02/635494363210.webp",
       "descripcion": "Serum antioxidante de alta potencia que protege la piel contra los radicales libres, mejora la apariencia de líneas finas y refuerza la firmeza."
     },
     {
       "categoria": "Cuidado de la Piel",
       "nombre": "Crema Hidratante Avène Hydrance Aqua-Gel",
+      "imagen": "https://laskin.com.co/cdn/shop/products/hydrance-aqua-gel-crema-hidratante-50ml-avene-r-laskin.jpg",
       "descripcion": "Crema hidratante ligera y multifuncional que hidrata intensamente la piel, calma la irritación y protege contra los agresores ambientales."
     },
     {
       "categoria": "Cuidado de la Piel",
       "nombre": "Protector Solar Facial ISDIN Fotoprotector Fusion Water SPF 50+",
+      "imagen": "https://pharmapiel.com.co/4447-thickbox_default/fusion-water-magic-spf-50-isdin.jpg",
       "descripcion": "Protector solar facial con textura ultraligera y base acuosa, que ofrece alta protección contra los rayos UVA y UVB sin dejar residuos grasos."
     }
   ]
