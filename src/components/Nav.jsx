@@ -2,12 +2,14 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { useAuth } from "../context/AuthContext";
 
 import img from "../assets/logo2.webp";
 import "../styles/Nav.css";
 
 export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { user } = useAuth();
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -40,7 +42,7 @@ export default function Nav() {
           </li>
           <li>
             <Link className="link" to="/session">
-              Iniciar Sesion
+              {user ? "Cerrar Sesión" : "Iniciar Sesión"}
             </Link>
           </li>
         </ul>
