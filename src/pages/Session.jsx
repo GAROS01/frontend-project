@@ -1,18 +1,50 @@
 import Nav from "../components/Nav";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { useAuth } from "../context/AuthContext";
+
+import "../styles/Session.css";
 
 export default function Session() {
+  const { user, loginGoogle, logout } = useAuth();
+
   return (
-    <div>
+    <>
       <Nav />
       <Header />
-      <h1>Session</h1>
-      <p>
-        This is the session page. This is where the user will be able to log in
-        and out of their account.
-      </p>
+
+      <div className="container">
+        <div>
+          <h2 className="titulo">
+            {user ? "Cerrar Session" : "Iniciar Sesion"}
+          </h2>
+          <div>
+            <img
+              {...(user
+                ? { src: user.avatar_url }
+                : {
+                    src: " https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg",
+                  })}
+            />
+            <h4 className="user">
+              {user
+                ? `Bienvenido ${user.full_name}`
+                : "Inicia sesion con Google"}
+            </h4>
+          </div>
+          {user ? (
+            <button className="btn" onClick={logout}>
+              Cerrar Session
+            </button>
+          ) : (
+            <button className="btn" onClick={loginGoogle}>
+              Iniciar Sesion
+            </button>
+          )}
+        </div>
+      </div>
+
       <Footer />
-    </div>
+    </>
   );
 }
