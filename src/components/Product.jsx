@@ -10,7 +10,7 @@ export default function Product({ titulo, img, descripcion, categoria }) {
       </div>
       <p className="description">{descripcion}</p>
       <p className="category">
-        Categoria:<span>{categoria}</span>
+        Categoria: <span>{categoria}</span>
       </p>
     </div>
   );

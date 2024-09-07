@@ -1,10 +1,8 @@
 .products-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* 3 columnas */
     gap: 1rem;
-    /* Espacio entre las tarjetas */
-    padding: 1rem;
+    padding: 40px 150px;
 }
 
 h2 {
@@ -18,6 +16,7 @@ h2 {
 @media screen and (max-width: 768px) {
     .products-container {
         grid-template-columns: repeat(1, 1fr);
+        padding: 40px 20px;
     }
 
 }

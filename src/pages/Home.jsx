@@ -4,7 +4,7 @@ import Nav from "../components/Nav.jsx";
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
 
-import agenda from "../assets/calendar.svg";
+import agenda from "../assets/calendar.webp";
 import diseño1 from "../assets/design1.png";
 import diseño2 from "../assets/design3.png";
 import diseño3 from "../assets/design4.png";
