@@ -2,6 +2,7 @@ import { createContext, useState, useContext, useEffect } from "react";
 import PropTypes from "prop-types";
 import { supabase } from "../services/supabaseClient.js";
 import { useNavigate } from "react-router-dom";
+import { sendTokenToBackend } from "../services/api.js";
 
 const AuthContext = createContext();
 
@@ -16,6 +17,13 @@ export const AuthContextProvider = ({ children }) => {
       });
       if (error) throw Error("Error logging in with Google");
       setUser(data.user);
+      const token = data.session?.access_token;
+      console.log("token", token);
+
+      if (token) {
+        // Send the token to the backend
+        sendTokenToBackend(token);
+      }
     } catch (error) {
       console.error("Error logging in with Google", error);
     }
@@ -39,8 +47,14 @@ export const AuthContextProvider = ({ children }) => {
           navigate("/", { replace: true });
         } else {
           setUser(session?.user.user_metadata);
-          session;
+          const token = session?.access_token;
           console.log("data del usuario", session?.user.user_metadata);
+          console.log("token", token);
+
+          if (token) {
+            // Send the token to the backend
+            sendTokenToBackend(token);
+          }
           navigate("/calendar", { replace: true });
         }
       }
