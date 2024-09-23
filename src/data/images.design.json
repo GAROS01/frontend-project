@@ -1,52 +1,52 @@
 {
-  "imagenes": {
-    "imagen1": {
+  "imagenes": [
+     {
       "img": "../../src/assets/img/diseño(1).jpg",
       "alt": "Diseño 1"
     },
-    "imagen2": {
+    {
       "img": "../../src/assets/img/diseño(2).jpg",
       "alt": "Diseño 2"
     },
-    "imagen3": {
+    {
       "img": "../../src/assets/img/diseño(3).jpg",
       "alt": "Diseño 3"
     },
-    "imagen4": {
+    {
       "img": "../../src/assets/img/diseño(4).jpg",
       "alt": "Diseño 4"
     },
-    "imagen5": {
+    {
       "img": "../../src/assets/img/diseño(5).jpg",
       "alt": "Diseño 5"
     },
-    "imagen6": {
+    {
       "img": "../../src/assets/img/diseño(6).jpg",
       "alt": "Diseño 6"
     },
-    "imagen7": {
+    {
       "img": "../../src/assets/img/diseño(7).jpg",
       "alt": "Diseño 7"
     },
-    "imagen8": {
+    {
       "img": "../../src/assets/img/diseño(8).jpg",
       "alt": "Diseño 8"
     },
-    "imagen9": {
+    {
       "img": "../../src/assets/img/diseño(9).jpg",
       "alt": "Diseño 9"
     },
-    "imagen10": {
+    {
       "img": "../../src/assets/img/diseño(10).jpg",
       "alt": "Diseño 10"
     },
-    "imagen11": {
+    {
       "img": "../../src/assets/img/diseño(11).jpg",
       "alt": "Diseño 11"
     },
-    "imagen12": {
+    {
       "img": "../../src/assets/img/diseño(12).jpg",
       "alt": "Diseño 12"
     }
-  }
+  ] 
 }

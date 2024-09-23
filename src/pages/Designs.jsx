@@ -20,7 +20,6 @@ export default function Designs() {
         </div>
         <p>Estos son algunos diseños realizados por nuestros especialistas</p>
       </section>
-
       <Footer />
     </div>
   );
