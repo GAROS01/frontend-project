@@ -20,7 +20,9 @@ export default function Session() {
           </h2>
           <div>
             <img
-              {...(user
+              className="img-user"
+              alt="user avatar"
+              {...(user && user.avatar_url
                 ? { src: user.avatar_url }
                 : {
                     src: " https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg",
