@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import Nav from "../components/Nav";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -7,6 +8,11 @@ import "../styles/Session.css";
 
 export default function Session() {
   const { user, loginGoogle, logout } = useAuth();
+  const navigate = useNavigate();
+
+  const handleRegisterClick = () => {
+    navigate("/register");
+  };
 
   return (
     <>
@@ -41,6 +47,13 @@ export default function Session() {
           ) : (
             <button className="btn" onClick={loginGoogle}>
               Iniciar Sesion
+            </button>
+          )}
+          {user ? (
+            <button className="btn">?</button>
+          ) : (
+            <button className="btn" onClick={handleRegisterClick}>
+              Registrarse
             </button>
           )}
         </div>
