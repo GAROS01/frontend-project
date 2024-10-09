@@ -22,10 +22,9 @@ export default function Register() {
         <label htmlFor="admin">Administrativo</label>
         <select className="select" id="admin" name="admin">
           <option value="0">None</option>
-          <option value="1">Admin 1</option>
-          <option value="2">Admin 2</option>
-          <option value="3">Admin 3</option>
-          <option value="4">Admin 4</option>
+          <option value="1">Administrativo</option>
+          <option value="2">Manicurista</option>
+          <option value="3">Cliente</option>
         </select>
 
         <button className="boton">Registrarse</button>
