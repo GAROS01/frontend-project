@@ -35,18 +35,18 @@ export const AuthContextProvider = ({ children }) => {
   useEffect(() => {
     const { data: authListener } = supabase.auth.onAuthStateChange(
       async (event, session) => {
-        console.log("supabase event: ", event);
-        if (session == null) {
-          navigate("/", { replace: true });
-        } else {
-          setUser(session?.user.user_metadata);
-          const token = session?.access_token;
+        console.log("event: ", event);
+        if (event === "SIGNED_IN" && session) {
+          setUser(session.user.user_metadata);
+          const token = session.access_token;
 
           if (token) {
             // Send the token to the backend
             sendTokenToBackend(token);
           }
           navigate("/calendar", { replace: true });
+        } else if (session == null) {
+          navigate("/", { replace: true });
         }
       }
     );
