@@ -6,7 +6,6 @@ import data from "../data/data.products.json";
 import "../styles/Products.css";
 
 export default function Products() {
-  console.log(data.productos);
   return (
     <div>
       <Nav />
