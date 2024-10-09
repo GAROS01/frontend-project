@@ -17,13 +17,6 @@ export const AuthContextProvider = ({ children }) => {
       });
       if (error) throw Error("Error logging in with Google");
       setUser(data.user);
-      // const token = data.session?.access_token;
-      // console.log("token", token);
-
-      // if (token) {
-      //   // Send the token to the backend
-      //   sendTokenToBackend(token);
-      // }
     } catch (error) {
       console.error("Error logging in with Google", error);
     }
@@ -48,8 +41,6 @@ export const AuthContextProvider = ({ children }) => {
         } else {
           setUser(session?.user.user_metadata);
           const token = session?.access_token;
-          console.log("data del usuario", session?.user.user_metadata);
-          console.log("token", token);
 
           if (token) {
             // Send the token to the backend
@@ -60,7 +51,7 @@ export const AuthContextProvider = ({ children }) => {
       }
     );
     return () => {
-      authListener.subscription;
+      authListener.subscription.unsubscribe();
     };
   }, []);
 
