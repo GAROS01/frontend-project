@@ -9,7 +9,6 @@ export default function Design(props) {
 }
 
 Design.propTypes = {
-  title: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
 };
