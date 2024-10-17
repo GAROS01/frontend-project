@@ -45,9 +45,6 @@ export default function Nav() {
               {user ? "Cerrar Sesión" : "Iniciar Sesión"}
             </Link>
           </li>
-          <li>
-            <Link className="link" to="/register"></Link>
-          </li>
         </ul>
       </div>
     </nav>
