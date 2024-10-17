@@ -31,9 +31,7 @@ export default function Calendar() {
         </div>
       </div>
       <div className="div-boton">
-        <button className="boton" type="submit">
-          Agendar Cita
-        </button>
+        <button className="boton">Agendar Cita</button>
       </div>
 
       <Footer />
