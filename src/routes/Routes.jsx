@@ -4,6 +4,7 @@ import Products from "../pages/Products";
 import Design from "../pages/Designs";
 import Calendar from "../pages/Calendar";
 import Session from "../pages/Session";
+import FormCitas from "../pages/FormCitas";
 
 export default function routes() {
   return (
@@ -14,6 +15,7 @@ export default function routes() {
         <Route path="/design" element={<Design />} />
         <Route path="/calendar" element={<Calendar />} />
         <Route path="/session" element={<Session />} />
+        <Route path="/citas" element={<FormCitas />} />
       </Routes>
     </>
   );
