@@ -7,9 +7,15 @@ import "../styles/Calendar.css";
 import Nav from "../components/Nav";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { useNavigate } from "react-router";
 
 export default function Calendar() {
   const [selected, setSelected] = useState();
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate("/citas");
+  };
 
   return (
     <div>
@@ -31,7 +37,9 @@ export default function Calendar() {
         </div>
       </div>
       <div className="div-boton">
-        <button className="boton">Agendar Cita</button>
+        <button className="boton" onClick={handleButtonClick}>
+          Agendar Cita
+        </button>
       </div>
 
       <Footer />
