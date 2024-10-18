@@ -41,6 +41,9 @@ export const AuthContextProvider = ({ children }) => {
           const token = session.access_token;
 
           if (token) {
+            // Guarda el token en sessionStorage
+            sessionStorage.setItem("authToken", token);
+
             // Send the token to the backend
             sendTokenToBackend(token);
           }
