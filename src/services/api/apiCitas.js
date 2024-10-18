@@ -1,7 +1,7 @@
 // src/api/citasApi.js
 export const reservarCita = async (token, fecha, hora, idManicurista) => {
   try {
-    const response = await fetch("http://localhost:4000/api/citas", {
+    const response = await fetch("http://localhost:4000/api/crear-cita", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
