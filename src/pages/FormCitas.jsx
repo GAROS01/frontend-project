@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { DayPicker } from "react-day-picker";
-import "react-day-picker/dist/style.css"; // Asegúrate de importar los estilos
+import "react-day-picker/dist/style.css";
 import { reservarCita } from "../services/api/apiCitas";
 
 import Nav from "../components/Nav";
@@ -82,9 +82,9 @@ export default function FormularioReserva() {
                 onChange={(e) => setIdManicurista(e.target.value)}
               >
                 <option value="">Seleccione un manicurista</option>
-                <option value="1">Manicurista 1</option>
-                <option value="2">Manicurista 2</option>
-                {/* Agrega más opciones según tu base de datos */}
+                <option value="1">Sofia Lopez</option>
+                <option value="2">Clara Mendoza</option>
+                <option value="3">Valeria Ortiz</option>
               </select>
             </label>
           </div>
