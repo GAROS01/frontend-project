@@ -1,4 +1,3 @@
-// src/api/citasApi.js
 export const reservarCita = async (token, fecha, hora, idManicurista) => {
   try {
     const response = await fetch("http://localhost:4000/api/crear-cita", {
@@ -20,9 +19,9 @@ export const reservarCita = async (token, fecha, hora, idManicurista) => {
       throw new Error(data.message || "Error al crear la cita");
     }
 
-    return data; // Devuelve la respuesta exitosa para manejarla en el formulario
+    return data;
   } catch (error) {
     console.error("Error al realizar la solicitud:", error);
-    throw error; // Re-lanza el error para manejarlo en el formulario
+    throw error;
   }
 };

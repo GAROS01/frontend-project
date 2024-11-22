@@ -1,4 +1,3 @@
-// Assuming 'data' is passed as an argument to a function
 export function processToken(data) {
   // Get the JWT token
   const { session } = data;
