@@ -10,16 +10,18 @@ export function processToken(data) {
 }
 
 export async function sendTokenToBackend(token) {
-  console.log("Sending token to backend:", token);
   try {
-    const response = await fetch("http://localhost:4000/api/validate-user", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${token}`,
-      },
-      body: JSON.stringify({}),
-    });
+    const response = await fetch(
+      "https://backend-project.up.railway.app/api/validate-user",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify({}),
+      }
+    );
 
     const result = await response.json();
     console.log("Backend validation response:", result);

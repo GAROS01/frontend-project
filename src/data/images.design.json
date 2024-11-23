@@ -1,52 +1,52 @@
 {
   "imagenes": [
-     {
-      "img": "../../src/assets/img/diseño(1).jpg",
+    {
+      "img": "https://github.com/user-attachments/assets/a0abfc42-6224-4769-b644-6405e7fe8cc2",
       "alt": "Diseño 1"
     },
     {
-      "img": "../../src/assets/img/diseño(2).jpg",
+      "img": "https://github.com/user-attachments/assets/32f8d1f8-b62b-4ac0-8099-d8102811cb7f",
       "alt": "Diseño 2"
     },
     {
-      "img": "../../src/assets/img/diseño(3).jpg",
+      "img": "https://github.com/user-attachments/assets/938c8a40-5003-4561-8f35-9e7f5cd42f1d",
       "alt": "Diseño 3"
     },
     {
-      "img": "../../src/assets/img/diseño(4).jpg",
+      "img": "https://github.com/user-attachments/assets/ed8a1d11-eb4c-44a1-bbe6-a6cd7c0392aa",
       "alt": "Diseño 4"
     },
     {
-      "img": "../../src/assets/img/diseño(5).jpg",
+      "img": "https://github.com/user-attachments/assets/799ce13f-66ea-475e-82d2-f057dd86b475",
       "alt": "Diseño 5"
     },
     {
-      "img": "../../src/assets/img/diseño(6).jpg",
+      "img": "https://github.com/user-attachments/assets/4271a9d9-3a70-40ca-9f6f-81f35ea8e0e5",
       "alt": "Diseño 6"
     },
     {
-      "img": "../../src/assets/img/diseño(7).jpg",
+      "img": "https://github.com/user-attachments/assets/a0a5b3a7-3c4f-429d-8606-27b6bc4129f6",
       "alt": "Diseño 7"
     },
     {
-      "img": "../../src/assets/img/diseño(8).jpg",
+      "img": "https://github.com/user-attachments/assets/96b2ee6f-3781-4463-b2b3-13dcb5baf8c4",
       "alt": "Diseño 8"
     },
     {
-      "img": "../../src/assets/img/diseño(9).jpg",
+      "img": "https://github.com/user-attachments/assets/c612e595-79a1-497c-82b3-93336d4959c3",
       "alt": "Diseño 9"
     },
     {
-      "img": "../../src/assets/img/diseño(10).jpg",
+      "img": "https://github.com/user-attachments/assets/72b3abfd-297e-45d1-810a-d6a2c6735f8e",
       "alt": "Diseño 10"
     },
     {
-      "img": "../../src/assets/img/diseño(11).jpg",
+      "img": "https://github.com/user-attachments/assets/d445679b-35c3-4dd5-8a48-6874b9d34c0e",
       "alt": "Diseño 11"
     },
     {
-      "img": "../../src/assets/img/diseño(12).jpg",
+      "img": "https://github.com/user-attachments/assets/3dd08fa4-c65a-4b36-800f-b5991c2cc927",
       "alt": "Diseño 12"
     }
-  ] 
+  ]
 }

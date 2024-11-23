@@ -35,7 +35,6 @@ export const AuthContextProvider = ({ children }) => {
   useEffect(() => {
     const { data: authListener } = supabase.auth.onAuthStateChange(
       async (event, session) => {
-        console.log("event: ", event);
         if (event === "SIGNED_IN" && session) {
           setUser(session.user.user_metadata);
           const token = session.access_token;
