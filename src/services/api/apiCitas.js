@@ -1,17 +1,20 @@
 export const reservarCita = async (token, fecha, hora, idManicurista) => {
   try {
-    const response = await fetch("http://localhost:4000/api/crear-cita", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${token}`,
-      },
-      body: JSON.stringify({
-        fecha,
-        hora,
-        id_manicurista: idManicurista,
-      }),
-    });
+    const response = await fetch(
+      "https://backend-project.up.railway.app/api/crear-cita",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify({
+          fecha,
+          hora,
+          id_manicurista: idManicurista,
+        }),
+      }
+    );
 
     const data = await response.json();
 
